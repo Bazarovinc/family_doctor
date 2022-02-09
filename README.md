@@ -1,5 +1,5 @@
 # Family doctor test task
-* Add `API KEY` into `.env` file
+* Add your `API KEY` into `.env` file
 * Build container
 ```
 docker-compose build
