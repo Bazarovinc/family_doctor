@@ -1,7 +1,7 @@
 from typing import Optional
 
 from weather.models import Weather
-from weather.schemas import WeatherSchema, QueryFields, WeatherCreateSchema
+from weather.schemas import QueryFields, WeatherCreateSchema, WeatherSchema
 
 
 class WeatherRepo:

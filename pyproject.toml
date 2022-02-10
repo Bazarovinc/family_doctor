@@ -13,8 +13,8 @@ dependency-injector = "^4.38.0"
 tortoise-orm = "^0.18.1"
 asyncpg = "^0.25.0"
 aerich = "^0.6.2"
-requests = "^2.27.1"
 geopy = "^2.2.0"
+httpx = "^0.22.0"
 
 
 [tool.poetry.dev-dependencies]

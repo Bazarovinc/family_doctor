@@ -1,10 +1,10 @@
-from datetime import datetime
-
-from fastapi import APIRouter, Depends, Query
 from dependency_injector.wiring import Provide, inject
-from weather.service import WeatherService
+from fastapi import APIRouter, Depends
+
 from core.containers.base_container import Container
 from weather.schemas import QueryFields
+from weather.service import WeatherService
+
 router = APIRouter()
 
 

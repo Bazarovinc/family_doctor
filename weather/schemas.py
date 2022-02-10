@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from tortoise.contrib.pydantic import pydantic_model_creator, PydanticModel
 from pydantic import BaseModel, validator
+from tortoise.contrib.pydantic import PydanticModel, pydantic_model_creator
 
 from weather.models import Weather
 
@@ -27,4 +27,3 @@ class QueryFields(BaseModel):
     @validator('city')
     def city_to_lower(cls, v):
         return v.lower()
-
